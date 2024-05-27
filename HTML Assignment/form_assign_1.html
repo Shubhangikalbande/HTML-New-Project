@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    <table bgcolor="purple" align="center" border="" cellspaing="5" cellpadding="15">
+        <caption><u><b>STUDENT REGISTRATION FORM</b></u></caption>
+        <tr>
+            <td>FirstName</td>
+            <td><input type="text" placeholder="Enter firstname"  required pattern="[a-zA-Z0-9]{3,10}"> (max 30 chars A-z and a-z)</td>
+            
+        </tr>
+        <tr>
+            <td>LastName</td>
+            <td><input type="text" placeholder="Enter lastname" > (max 30 chars A-z and a-z)</td>
+            
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH </td>
+            <td>
+                <select>
+                    <option>Day</option>
+                    
+                </select>
+                <select>
+                    <option>Month</option>
+                    
+                </select>
+                <select>
+                    <option>Year</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> ENTER EmailId </td>
+               
+           
+            <td> <input  type="email" placeholder="enter email id" required></td>
+        </tr>
+        <tr>
+            <td >MOBILNUMBER</td>
+           <td> <input type="tel" pattern="\d{10}" required><small>(10 digit number)</small></td>
+        </tr>
+        <tr>
+            <td> GENDER</td>
+            <TD> <input type="radio" > male <input type="radio" > Female</TD>
+          
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td><textarea cols="25" rows="10"></textarea> </textarea></td>
+        </tr>
+        <tr>
+            <td>CITY</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>PINCODE</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>STATE</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>COUNTRY</td>
+            <td><input type="text" placeholder="India"> </td>
+        </tr>
+        <tr>
+            <td>HOBBIES</td>
+            <td><input type="checkbox">Singing <input type="checkbox">Dancing <input type="checkbox">Sketching
+                <input type="checkbox">Others<input type="text"></td>
+           
+            </tr>
+            
+            <tr>
+                
+                <td rowspan="5">Qualification> </td>
+            
+                    <td> SR No </td>
+                    <td> Examination </td>              
+                    <td>Board</td>
+                    <td>Percentage</td>
+                    <td>Year of passing</td>
+                
+                
+            
+                
+            </tr>
+           
+             <tr>
+                 <td>1</td>
+                 <td>class x</td>
+                 <td><input type="text"></td>
+                 <td><input type="text"></td>
+                 <td><input type="text"></td>
+                 
+                 
+                 
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>class xi</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+                
+                
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>Grad</td>
+           <td><input type="text"></td>
+           <td><input type="text"></td>
+           <td><input type="text"></td>
+            
+       </tr>
+       <tr>
+        <td>4</td>
+        <td>masters</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+    
+        
+        
+   </tr>
+   <td>COURSES APPLIED FOR: </td>
+
+   <td input type="radio">BCA <input type="radio">Bcom <input type="radio">BSC
+    <input type="radio">BA</td>
+   </tr>
+   <tr>
+    <td colspan ="2" align="center">
+        <input type="submit">
+        <input type="reset">
+    </td>
+   </tr>
+    </table>
+</form>
+    
+</body>
+</html>

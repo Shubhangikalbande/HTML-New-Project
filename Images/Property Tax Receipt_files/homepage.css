@@ -1,0 +1,516 @@
+/* Home page CSS Document */
+
+/* Basic home page style Starts */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+    FONT-FAMILY: Verdana, Arial, Sans-Serif;
+	FONT-SIZE: 10px;
+}
+.more_info{
+background-color:#f4f4f4;
+padding-left:10px;
+background-image:url(../images/gray_tab_bg.jpg);
+background-repeat:repeat-x;
+height:31px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+font-weight:bold;
+vertical-align:middle;
+}
+.more_info_links{
+padding:7px;
+color:#9d3314;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+
+border-bottom-color:#d9d9d9;
+border-bottom-width:1px;
+border-bottom-style:solid;
+}
+.bottom_px_border
+{
+border-bottom-color:#d9d9d9;
+border-bottom-width:1px;
+border-bottom-style:solid;
+}
+
+.body_text
+{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+line-height:13px;
+}
+
+.heading_1
+{
+font-family:Arial;
+color:#000000;
+font-weight:600;
+font-size:13px;
+}
+.heading_2
+{
+font-family:Arial;
+font-size:12px;
+height:14px;
+font-weight:700;
+color:#000000;
+}
+.heading_3
+{
+	font-family:Arial;
+	color:#000000;
+	font-weight:900;
+	font-size:small;
+	text-transform:capitalize;
+}
+
+.marathi_font
+{
+    font-family:SUCHI-DEV-0708W;
+    font-size:large;
+}
+
+.search_text
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+height:14px;
+font-weight:normal;
+color:#000000;
+}
+.top_links
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#fed165;
+}
+.top_links_selected
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight:bold;
+color:#FFFFFF;
+}
+#mainframe {
+	position:relative;	
+	background-color:#FFFFFF;
+	width:100%;
+	height:890px;
+	top:0px;
+	left:0px;
+	z-index:1;
+	display:block;
+}
+.searchbar
+{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+border:1px #CCCCCC solid;
+height:18px;
+}
+.copyright
+{
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+height:20px;
+padding-left:10px;
+}
+.bullet_iflineheight
+{
+padding-bottom:5px;
+}
+
+.bullet_lineheight
+{
+line-height:15px;
+}
+
+
+a:link {
+	color: #9d3314;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: underline;
+	color: #9d3314;
+}
+a:active {
+	text-decoration: none;
+	color: #9d3314;
+}
+#special_link:hover{
+color:#FFFFFF;
+text-decoration:none;
+}
+#special_link{
+color:#fed165;
+text-decoration:none;
+}
+
+/* Basic home page style Ends */
+
+
+/* Carousel Layer style starts */
+#Layer1 {
+	position:absolute;
+	padding:10px;
+	z-index:1;
+	left:0px;
+	top:29px;
+	visibility:visible;
+
+}
+#Layer2 {
+	position:absolute;
+	padding:10px;
+	z-index:1;
+	left:0px;
+	top:29px;
+	visibility:hidden;
+}
+#Layer3 {
+	position:absolute;
+	padding:10px;
+	z-index:1;
+	left:0px;
+	top:29px;
+	visibility:hidden;
+}
+#Layer4 {
+	position:absolute;
+	padding:10px;
+	z-index:1;
+	left:0px;
+	top:29px;
+	visibility:hidden;
+}
+#Layer5 {
+	position:absolute;
+	padding:10px;
+	z-index:1;
+	left:0px;
+	top:29px;
+	visibility:hidden;
+}
+#Layer6 {
+	position:absolute;
+	padding:10px;
+	z-index:1;
+	left:0px;
+	top:29px;
+	visibility:hidden;
+}
+#imgcount{
+	position:absolute;
+	background-color:#f0cf95;
+	vertical-align:middle;
+	width:140px;
+	height:20px;
+	z-index:2;
+	left:410px;
+	top:7px;
+	visibility:visible;
+}
+
+#nav{
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:1;
+	left:0px;
+	top:0px;
+	visibility:visible;
+}
+#parent_layer{
+	position:relative;
+	width:100%;
+	height:225px;
+	z-index:5;
+	left:0px;
+	top:-37px;
+	visibility:visible;
+	background-color:#666666;
+}
+/* Carousel Layer
+/
+/* Carousel Layer
+/
+/* Carousel Layer
+/
+/* Carousel Layer
+/* Carousel Layer
+/* Carousel Layer style ends */
+
+/* Accordion style Starts */
+
+
+.accordion_headings{
+	padding:5px;
+	background:#ecd6ad;
+	background-image:url(../images/tab_closed.jpg);
+	background-repeat:repeat-x;
+	height:20px;
+	color:#9d3314;
+	border:0px solid #f9e6c5;
+	border-bottom-color:#cfbb98;
+	cursor:pointer;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:900;
+	color:#9d3314;
+	z-index:0;
+}
+
+.accordion_headings:hover{
+	background:#ecd6ad;
+	background-image:url(../images/tab_closed.jpg);
+	background-repeat:repeat-x;
+	z-index:0;
+}
+
+.accordion_child{
+	padding:10px;
+	background:#fcf4df;
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#9d3314;
+	z-index:0;
+
+	}
+.aboutpmc{
+	padding:15px;
+	background:#000099;
+	
+}
+.header_highlight{
+	background:#ecd6ad;
+	background-image:url(../images/tab_open.jpg);
+	background-repeat:repeat-x;
+	z-index:1;
+	margin-top:-100px;
+}
+
+.accordion_headings_right{
+	padding:5px;
+	background:#e1e1e1;
+	background-image:url(../images/tab_closed_right.jpg);
+	background-repeat:repeat-x;
+	height:20px;
+	color:#000000;
+	border:0px solid #f9e6c5;
+	border-bottom-color:#cfbb98;
+	cursor:pointer;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:900;
+	z-index:0;
+}
+
+.accordion_headings_right:hover{
+	background:#000000;
+	background-image:url(../images/tab_closed_right.jpg);
+	background-repeat:repeat-x;
+	z-index:0;
+}
+
+.accordion_child_right{
+	padding:10px;
+	background:#FFFFFF;
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	z-index:0;
+
+	}
+
+.header_highlight_right{
+	background:#e1e1e1;
+	background-image:url(../images/tab_open_right.jpg);
+	background-repeat:repeat-x;
+	color:#000000;
+	z-index:1;
+}
+/* Accordion style Ends */
+/* The right side Accordion Styles Ends */
+
+
+/* About PMC Menu Style Starts */
+
+#head_aboutpmc {
+	position:relative;
+	background-image:url(../images/open_aboutpmc_bg.jpg);
+	width:184px;
+	height:32px;
+	z-index:1;
+	vertical-align:top;
+	cursor:pointer;
+	left:0px;
+	top: 0px;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:900;
+	color:#9d3314;
+}
+
+#links_aboutpmc {
+	position:relative;
+	display:block;
+	width:184px;
+	height:1px;
+	z-index:1;
+	top: 0px;
+	overflow: hidden;
+	left: 0px;
+}
+#parent_aboutpmc{
+	position:absolute;
+	background-color:#feeec6;
+	width:184px;
+	height:inherit;
+	top:133px;
+	left:475px;
+	z-index:1;
+}
+.tab_bg{
+padding-left:10px;
+background-image:url('../images/tab_bg.jpg');
+background-position:left;
+background-repeat:repeat-x;
+height:32px;
+width:307px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:900;
+color:#9d3314;
+}
+
+.bullet_link
+{
+color:#9d3314;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+line-height:24px;
+list-style-position:inside;
+content:inherit;
+}
+.bullet_link_right
+{
+color:#333333;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+line-height:24px;
+list-style-position:inside;
+content:inherit;
+}
+#footer {
+	position:absolute;
+	background-color:#6633FF;
+	width:1000px;
+	height:20px;
+	left:100px;
+	z-index:5;
+}
+
+.page_heading{
+/*background-color:#F0CF95;*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+text-align:left;
+padding-left:5px;
+height:30px;
+}
+.table_heading{
+background-color:#C8C8C8;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-align:left;
+padding:5px;
+border-left:none;
+border-right:none;
+height:20px;
+}
+.table_subheading{
+background-color:#edd6ae;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-align:left;
+padding-left:5px;
+height:25px;
+
+}
+
+.table_rows_a{
+background-color:#F4F4F4;
+border:0px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:normal;
+padding:2px 2px 2px px;
+height:15px;
+}
+
+.table_rows_b{
+background-color:#EBEBEB;
+border:0px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:normal;
+padding:2px 2px 2px 2px;
+height:15px;
+}
+.table_rows_sel{
+background-color:#f0cf95;
+border:0px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:normal;
+padding:5px;
+}
+.table_parent{
+border:solid #CCCCCC 0px;
+background-color:#DDDDDD;
+}
+.tabel_blankrow{
+background-color:#FFFFFF;
+}
+
+.pdf a {color:#de0000; font-size:12px;}
+.pdf a:link {color:#de0000;}
+.pdf a:visited {color:#378de5;}
+.pdf a:hover {text-decoration:underline;color:#378de5;}
+.pdf a:active {color:#378de5;text-decoration: none;}
+/* About PMC Menu Style Ends */
+
+/* Old Style */
+.txtbox
+{
+	font-weight: normal; 
+	font-size: 11px; 
+	color: black; 
+	font-family: Verdana, Tahoma, Arial, 'Arial Black'; 
+	background-color: white;
+	border: #c8c8c8 1px solid; 
+	width:255px;
+
+}
+

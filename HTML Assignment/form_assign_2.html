@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+    <style>
+        table{
+           
+            background-color: lightblue;
+        }
+        input{
+           
+           background-color: lightblue;
+       }
+    </style>
+</head>
+<body>
+    <h1  align="center" >SCHOOL ADMISSON FORM</h1>
+    <form>
+        <table  align="center" border="1" cellspacing="15" cellpadding=" 5">
+            <tr>
+                <td>Student's Name</td>
+                <td >
+                    <input type="text" required placeholder="first"> <input type="text "required placeholder="last"> 
+                </td>
+            </tr>
+            <tr>
+                <td>Class you want to Apply for:</td>
+                <td ><input type="text" height="10" width="10"></td>
+              
+            </tr>
+            <tr>
+                <td>Student's DOB</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Parent's/Guardian's Name</td>
+                <td><input type="text" required placeholder="first"> <input type="text" required placeholder="last"></td>
+                
+            </tr>
+            <tr>
+                <td rowspan="4">Current Address</td>
+                <td ><input type="text" required placeholder="street Address"></td>
+                <tr>  <td><input type="text" required placeholder=" Address line 2"> </td>
+                </tr>
+                
+                
+            </tr>
+            <tr>
+                <td> <input type="text" placeholder="city"> <input type="text" placeholder="region"></td>
+            
+                
+            </tr>
+            <tr>
+                <td> <input type="number" placeholder="Postal/Zip code">
+                 <select placeholder="country">
+                    <option>Country</option>
+                    <option>India</option>
+                    <option>Usa</option>
+                </select>
+                    
+                    </td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td>
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email"></td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>

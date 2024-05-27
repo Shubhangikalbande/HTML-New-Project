@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        table{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Job Application Form Widget</h1>
+    <form method="post">
+        <table align="center" border="" cellspacing="" cellpadding="">
+            <tr>
+                <td><input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><input type="Email" placeholder="Email" required> <input type="tel"placeholder="Phone no" required></td>
+            </tr>
+            <tr>
+                <td  colspan="2" ><select >
+                    <option> Select country</option>
+                
+                    <option> India</option>
+                
+                    <option> USA</option>
+                    <option> UAE</option>
+                
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="City">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select> 
+                        <option>Select desired position</option>
+                        <option>HR</option>
+                        <option>Sales & Marketing</option>
+                         </select>
+
+                                               
+                </td>
+            </tr>
+            <tr>
+                <td><textarea col="5" rows="5"  placeholder=" Additional info"></textarea></td>
+            </tr>
+            <tr>
+                <td>Add your CV<input type="file" accept=".pdf"><input type="submit" value="Browse"><small><br>Only pdf file size less than 1MB</small></td>
+                
+            </tr>
+            <td>
+                <tr rowspan="5"></tr>
+            </td>
+           <tr>
+                <td align="right"  > <input type="submit" ><input type="reset" ></td>
+            </tr>
+           
+
+        </table>
+    </form>
+</body>
+</html>
